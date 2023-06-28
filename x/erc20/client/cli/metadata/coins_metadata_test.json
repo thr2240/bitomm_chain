@@ -4,18 +4,18 @@
       "description": "The native staking and governance token of the Evmos chain",
       "denom_units": [
         {
-          "denom": "exa",
+          "denom": "abitomm",
           "exponent": 0
         },
         {
-          "denom": "cmcx",
+          "denom": "bitomm",
           "exponent": 18
         }
       ],
-      "base": "exa",
-      "display": "exa",
-      "name": "exa",
-      "symbol": "CMCX"
+      "base": "abitomm",
+      "display": "abitomm",
+      "name": "abitomm",
+      "symbol": "Bitomm"
     },
     {
       "description": "The native staking and governance token of the Osmosis chain",

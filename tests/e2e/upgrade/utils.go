@@ -104,7 +104,7 @@ func (m *Manager) ExportState(targetDir string) error {
 	cmd := exec.Command(
 		"docker",
 		"cp",
-		fmt.Sprintf("%s:/root/.catenad", m.ContainerID()),
+		fmt.Sprintf("%s:/root/.bitommd", m.ContainerID()),
 		targetDir,
 	)
 	return cmd.Run()

@@ -16,8 +16,8 @@ RUN apt-get install ca-certificates jq -y
 
 WORKDIR /root
 
-COPY --from=build-env /go/src/github.com/evmos/evmos/build/catenad /usr/bin/catenad
+COPY --from=build-env /go/src/github.com/evmos/evmos/build/bitommd /usr/bin/bitommd
 
 EXPOSE 26656 26657 1317 9090 8545 8546
 
-CMD ["catenad"]
+CMD ["bitommd"]

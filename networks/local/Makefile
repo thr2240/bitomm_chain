@@ -1,4 +1,4 @@
 all:
-	docker build --no-cache --tag catena/node ../.. -f catena/Dockerfile
+	docker build --no-cache --tag bitomm/node ../.. -f bitomm/Dockerfile
 
 .PHONY: all
