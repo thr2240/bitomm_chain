@@ -221,9 +221,9 @@ replace (
 	// use cosmos fork of keyring
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
 	// use Cosmos-SDK fork to enable Ledger functionality
-	github.com/cosmos/cosmos-sdk => github.com/thr2240/cosmos-sdk-bitomm v1.0.2
+	github.com/cosmos/cosmos-sdk => github.com/thr2240/cosmos-sdk-bitomm v1.0.4
 	// use Evmos geth fork
-	github.com/ethereum/go-ethereum => github.com/thr2240/go-ethereum-bitomm v1.0.4
+	github.com/ethereum/go-ethereum => github.com/thr2240/go-ethereum-bitomm v1.0.7
 	// Security Advisory https://github.com/advisories/GHSA-h395-qcrw-5vmq
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.7.7
 	// use cosmos flavored protobufs

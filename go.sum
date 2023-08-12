@@ -1180,10 +1180,10 @@ github.com/tendermint/go-amino v0.16.0 h1:GyhmgQKvqF82e2oZeuMSp9JTN0N09emoSZlb2l
 github.com/tendermint/go-amino v0.16.0/go.mod h1:TQU0M1i/ImAo+tYpZi73AU3V/dKeCoMC9Sphe2ZwGME=
 github.com/tendermint/tm-db v0.6.7 h1:fE00Cbl0jayAoqlExN6oyQJ7fR/ZtoVOmvPJ//+shu8=
 github.com/tendermint/tm-db v0.6.7/go.mod h1:byQDzFkZV1syXr/ReXS808NxA2xvyuuVgXOJ/088L6I=
-github.com/thr2240/cosmos-sdk-bitomm v1.0.2 h1:/jkE7wh8nmQxTvcqsHhIx8rDkQoGNN+dJ+sHKFmtNX8=
-github.com/thr2240/cosmos-sdk-bitomm v1.0.2/go.mod h1:JNklMfXo7MhDF1j/jxZCmDyOYyqhVoKB22e8p1ATEqA=
-github.com/thr2240/go-ethereum-bitomm v1.0.4 h1:UEKwvX4+we5w97vh2ODIZCjxFL95k007ChnmRyTAes0=
-github.com/thr2240/go-ethereum-bitomm v1.0.4/go.mod h1:/6CsT5Ceen2WPLI/oCA3xMcZ5sWMF/D46SjM/ayY0Oo=
+github.com/thr2240/cosmos-sdk-bitomm v1.0.4 h1:JGx9zBuMuHh8TbnPBi3wYxBlfcUB341SeNu8+xQipdM=
+github.com/thr2240/cosmos-sdk-bitomm v1.0.4/go.mod h1:JNklMfXo7MhDF1j/jxZCmDyOYyqhVoKB22e8p1ATEqA=
+github.com/thr2240/go-ethereum-bitomm v1.0.7 h1:/oQZekhWTdd+RNco2nUTw7LmMz9ohN+z22NuEGakbMA=
+github.com/thr2240/go-ethereum-bitomm v1.0.7/go.mod h1:/6CsT5Ceen2WPLI/oCA3xMcZ5sWMF/D46SjM/ayY0Oo=
 github.com/tidwall/gjson v1.12.1/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
 github.com/tidwall/gjson v1.14.0/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
 github.com/tidwall/gjson v1.14.2/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=

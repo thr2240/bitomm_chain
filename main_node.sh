@@ -173,7 +173,7 @@ if [[ $overwrite == "y" || $overwrite == "Y" ]]; then
 
 
 	# Sign genesis transaction
-	bitommd gentx ${KEYS[0]} 10000000000000000000000abitomm --keyring-backend $KEYRING --chain-id $CHAINID --home "$HOMEDIR"  --min-self-delegation 10000
+	bitommd gentx ${KEYS[0]} 1000000000000000000000abitomm --keyring-backend $KEYRING --chain-id $CHAINID --home "$HOMEDIR"  --min-self-delegation 10000
 
 
 
@@ -188,6 +188,6 @@ if [[ $overwrite == "y" || $overwrite == "Y" ]]; then
 	fi
 fi
 
-bitommd start --pruning=nothing "$TRACE"  --minimum-gas-prices=0.0001abitomm --rpc.laddr tcp://0.0.0.0:26657 --log_level $LOGLEVEL --json-rpc.api eth,txpool,personal,net,debug,web3 --api.enable --home "$HOMEDIR"
+# bitommd start --pruning=nothing "$TRACE"  --minimum-gas-prices=0.0001abitomm --rpc.laddr tcp://0.0.0.0:26657 --log_level $LOGLEVEL --json-rpc.api eth,txpool,personal,net,debug,web3 --api.enable --home "$HOMEDIR"
 # bitommd start --metrics "$TRACE" --log_level $LOGLEVEL --minimum-gas-prices=0.0001aevmos --json-rpc.api eth,txpool,personal,net,debug,web3 --api.enable --home "$HOMEDIR"
 # bitommd tx staking create-validator --amount=1000000000000000000000abitomm --from=validator2 --pubkey=$(bitommd tendermint show-validator) --moniker="validator2" --chain-id bitomm_2121-1 --commission-rate="0.1" --commission-max-rate="0.2" --commission-max-change-rate="0.05" --min-self-delegation="500000000" --keyring-backend=test --yes --broadcast-mode block
